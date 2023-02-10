@@ -52,23 +52,23 @@
           <div>
           <div class="bg-image" style=" background: url('{{ asset('img/sigiriya 3.jpg') }}');">
              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 card-text-wrapper">
-                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2>
+                <h2 class=" mt-5 mb-4 display-6 lh-1 fw-bold " style= "font-size: 28px">..Explore New Horizons and Memorries <br> See the World Through fresh Eyes <br> Awaken To a Different World...</h2>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
-                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                      class="rounded-circle border border-white">
+                    <!-- <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
+                      class="rounded-circle border border-white"> -->
                   </li>
                   <li class="d-flex align-items-center me-3">
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#geo-fill"></use>
                     </svg>
-                    <small>Earth</small>
+                    <!-- <small>Earth</small> -->
                   </li>
                   <li class="d-flex align-items-center">
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#calendar3"></use>
                     </svg>
-                    <small>3d</small>
+                    <!-- <small>3d</small> -->
                   </li>
                 </ul>
               </div>
@@ -85,23 +85,23 @@
           <div>
           <div class="bg-image" style=" background: url('{{ asset('img/rumassala.jpg') }}');">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 card-text-wrapper">
-                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2>
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style= "font-size: 24px">...Experience Luxury in The Lap of Nature.. <br> Open The Door For a Spacious Living.. <br> A short Story Of Living..</h2>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
-                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                      class="rounded-circle border border-white">
+                    <!-- <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
+                      class="rounded-circle border border-white"> -->
                   </li>
                   <li class="d-flex align-items-center me-3">
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#geo-fill"></use>
                     </svg>
-                    <small>Earth</small>
+                    
                   </li>
                   <li class="d-flex align-items-center">
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#calendar3"></use>
                     </svg>
-                    <small>3d</small>
+                    
                   </li>
                 </ul>
               </div>
@@ -117,23 +117,23 @@
           <div>
             <div class="bg-image" style=" background: url('{{ asset('img/unawatuna.jpg') }}');">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 card-text-wrapper">
-                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2>
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style= "font-size: 24px">Hundreds Of Flavors Under One Roof.. <br> Add a Joy Of Best Taste.. <br> Where Every Flavor Tells a Story..</h2>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
-                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                      class="rounded-circle border border-white">
+                    <!-- <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
+                      class="rounded-circle border border-white"> -->
                   </li>
                   <li class="d-flex align-items-center me-3">
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#geo-fill"></use>
                     </svg>
-                    <small>Earth</small>
+                    <!-- <small>Earth</small> -->
                   </li>
                   <li class="d-flex align-items-center">
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#calendar3"></use>
                     </svg>
-                    <small>3d</small>
+                    <!-- <small>3d</small> -->
                   </li>
                 </ul>
               </div>
@@ -169,8 +169,8 @@
         <section class="testimonials wrapper">
             <div class="container-fluid"></div>
             <div class="title animated wow fadeIn">
-                <h2 class='text-center' >We have Karaoke too!</h2>
-                <h3>Apart from the mouth watering food we offer private dining rooms with Karaoke facility in every room
+                <h2 class='text-center text-black' >We have Karaoke too!</h2>
+                <h3 class=' text-black'>Apart from the mouth watering food we offer private dining rooms with Karaoke facility in every room
                     with wide verity of songs selection. (Rooms can adequately accommodate 10 to 45 people)</h3>
                 <hr class="separator" />
             </div>

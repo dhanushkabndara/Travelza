@@ -1,28 +1,32 @@
 @extends('layouts.layout')
 @section('content')
+
     <div class="container">
         <!-- <span class="big-circle"></span>
       <img src="img/shape.png" class="square" alt="" /> -->
         <div class="form">
             <div class="contact-info">
                 <h3 class="title">Let's get in touch</h3>
+                <br>
+                <br>
                 <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                    dolorum adipisci recusandae praesentium dicta!
+                    Thanks for stay with us!
+                    <br>
+                    send us your feedback...
                 </p>
 
                 <div class="info">
                     <div class="information">
                         <img src="img/location.png" class="icon" alt="" />
-                        <p>92 Cherry Drive Uniondale, NY 11553</p>
+                        <p>SLIATE HNDIT BADULLA</p>
                     </div>
                     <div class="information">
                         <img src="img/email.png" class="icon" alt="" />
-                        <p>lorem@ipsum.com</p>
+                        <p>sliate@gmail.com</p>
                     </div>
                     <div class="information">
                         <img src="img/phone.png" class="icon" alt="" />
-                        <p>123-456-789</p>
+                        <p>+9472-740-2192</p>
                     </div>
                 </div>
 
@@ -49,25 +53,26 @@
                 <span class="circle one"></span>
                 <span class="circle two"></span>
 
-                <form action="index.html" autocomplete="off">
+                <form action="save_contact" autocomplete="off" method="post" >
+                    @csrf
                     <h3 class="title">Contact us</h3>
                     <div class="input-container">
-                        <input type="text" name="name" class="input" />
+                        <input type="text" name="username" class="input" name="user_name" />
                         <label for="">Username</label>
                         <span>Username</span>
                     </div>
                     <div class="input-container">
-                        <input type="email" name="email" class="input" />
+                        <input type="email" name="email" class="input" name="email"/>
                         <label for="">Email</label>
                         <span>Email</span>
                     </div>
                     <div class="input-container">
-                        <input type="tel" name="phone" class="input" />
+                        <input type="tel" name="phone" class="input" name="phone" />
                         <label for="">Phone</label>
                         <span>Phone</span>
                     </div>
                     <div class="input-container textarea">
-                        <textarea name="message" class="input"></textarea>
+                        <textarea name="message" class="input" name="message"></textarea>
                         <label for="">Message</label>
                         <span>Message</span>
                     </div>

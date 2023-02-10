@@ -18,7 +18,8 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merienda+One">
 
-
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
 
     <link rel="stylesheet" type="text/css" href="{{ asset('css/reset.css') }}">
     <!-- <link rel="stylesheet" type="text/css" href="{{ asset('css/fancybox.css') }}"> -->
@@ -27,10 +28,11 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/contact new.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/gallery.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/hotel reg.css') }}">
-    <!-- <link rel="stylesheet" type="text/css" href="{{ asset('css/loging.css') }}"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="{{ asset('css/loging.css') }}">  -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/nav.css') }}">
-    <!-- <link rel="stylesheet" type="text/css" href="{{ asset('css/payment.css') }}">  -->
+    <!-- <link rel="stylesheet" type="text/css" href="{{ asset('css/payment.css') }}"> -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/feature.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/trave.css') }}">
 
 
     <style>

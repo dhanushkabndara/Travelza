@@ -22,7 +22,6 @@ class User extends Authenticatable
         'email',
         'password',
     ];
-
     /**
      * The attributes that should be hidden for serialization.
      *
@@ -41,4 +40,11 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    /**-----get the hotels of users */
+
+    public function hotels()
+    {
+        return $this->hasMany(Hotel::class);
+    }
 }

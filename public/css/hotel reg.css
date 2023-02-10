@@ -24,6 +24,7 @@
 .hotel-form .input-text{
   display:  inline-block;
   background: transparent;
+  
   width: 100%;
   height: 36px;
   border-width: 0 0 2px 0;
@@ -55,7 +56,7 @@
 .hotel-form .submit-btn{
   display: inline-block;
   background-image: linear-gradient(125deg,#a72879,#064497);
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 16px;
